@@ -1,8 +1,142 @@
+:root {
+  --dark-cyan: #2a5a48;
+  --light-cyan: #3c8067;
+  --cream: #f2ebe3;
+  --dark-blue: #1c232b;
+  --grayish-blue: #6c7289;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: var(--cream);
+  font-family: 'Montserrat', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.product-preview-card {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 30rem;
+  padding-top: 10rem;
+
+}
+
+
+/* Reusable Styles */
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+/* Image container */
+
+picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  height: 90%;
+}
+
+/* Text container */
+
+.text-container {
+  padding: 4rem;
+  height: 90%;
+  background-color: var(--white);
+}
+
+.tag {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.5rem;
+  color: var(--grayish-blue);
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.content {
+  color: var(--grayish-blue);
+  line-height: 1.6;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+}
+
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 2.4rem 0;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  font-size: 3.2rem;
+  color: var(--light-cyan);
+}
+
+.previous-price {
+  color: var(--grayish-blue);
+  text-decoration: line-through;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  color: var(--cream);
+  background-color: var(--light-cyan);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.btn-filled:hover {
+  background-color: var(--dark-cyan);
+}
+
+/* Attribution */
 .attribution {
+  /* margin-top: 1rem; */
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-cyan);
 }

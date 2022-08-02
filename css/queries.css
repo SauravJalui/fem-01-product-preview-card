@@ -1,0 +1,19 @@
+@media(max-width:700px) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .product-preview-card {
+    max-width: 45rem;
+    /* margin: 10rem auto; */
+    padding: 0;
+  }
+
+  .image-container {
+    height: 100%;
+  }
+
+  .text-container {
+    height: 100%;
+  }
+}
