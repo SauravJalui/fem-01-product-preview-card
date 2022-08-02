@@ -1,19 +1,51 @@
-@media(max-width:700px) {
+/* 600px (mobiles) */
+@media(max-width:37.5em) {
   .grid--2-cols {
     grid-template-columns: 1fr;
   }
 
   .product-preview-card {
-    max-width: 45rem;
-    /* margin: 10rem auto; */
-    padding: 0;
+    max-height: 62rem;
+    max-width: 35rem
   }
 
-  .image-container {
-    height: 100%;
+  picture img {
+    width: 35rem
   }
 
   .text-container {
-    height: 100%;
+    padding: 3rem;
+  }
+
+  .tag {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 1.2;
+  }
+
+  .content {
+    margin: 1.2rem 0;
+    font-size: 1.4rem;
+  }
+
+  .price-container {
+    margin: 2rem 0;
+  }
+
+  .price {
+    font-size: 2.8rem;
+  }
+
+  .previous-price {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
   }
 }
