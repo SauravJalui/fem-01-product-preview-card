@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages - https://sauravjalui.github.io/fem-product-preview-card/](https://sauravjalui.github.io/fem-product-preview-card/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-Pu9eV3SL7F)
+- Live Site URL: [GitHub Pages](https://sauravjalui.github.io/fem-product-preview-card/)
 
 ## Built with
 
